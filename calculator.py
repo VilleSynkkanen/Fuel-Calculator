@@ -1,6 +1,3 @@
-# info needed: race time, leader's estimated pace, fuel per lap
-# extra: formation lap, pit stop
-
 import math
 
 
