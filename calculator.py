@@ -3,10 +3,14 @@ import math
 
 def main():
     close = False
+    first = True
+    info = input("Input race time (hours:minutes), estimated pace (minutes:seconds), "
+                 "fuel per lap & safety margin separated by spaces\n")
     while not close:
         try:
-            info = input("Input race time (hours:minutes), estimated pace (minutes:seconds), "
-                         "fuel per lap & safety margin separated by spaces:\n")
+            if first:
+                first = False
+                print()
             info = info.split(" ")
             time = info[0].split(":")
             if len(time) == 1:
@@ -23,20 +27,20 @@ def main():
             laps = math.ceil(time_parsed / pace_parsed)
             laps_margin = laps + margin
             fuel_needed = math.ceil(laps_margin * consumption)
-            print("\nEstimated laps:", laps)
+            print("Estimated laps:", laps)
             print("Safety margin:", margin, "laps")
             print("Fuel needed:", fuel_needed, "liters\n")
-            cont = input("Choose 1 to calculate again or 2 to close program: ")
-            if cont == "2":
+            info = input("Input parameters to calculate again or press Enter to close\n")
+            if info == "":
                 close = True
             else:
                 print()
         except ValueError:
             close = False
-            print("Invalid values\n")
+            info = input("Invalid values. Input parameters to calculate again or press Enter to close\n")
         except IndexError:
             close = False
-            print("Invalid values\n")
+            info = input("Invalid values. Input parameters to calculate again or press Enter to close\n")
 
 
 main()
