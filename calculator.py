@@ -38,9 +38,15 @@ def main():
         except ValueError:
             close = False
             info = input("Invalid values. Input parameters to calculate again or press Enter to close\n")
+            if info == "":
+                close = True
+            print()
         except IndexError:
             close = False
             info = input("Invalid values. Input parameters to calculate again or press Enter to close\n")
+            if info == "":
+                close = True
+            print()
 
 
 main()
