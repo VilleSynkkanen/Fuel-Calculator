@@ -5,7 +5,7 @@ def main():
     close = False
     first = True
     info = input("Input race time (hours:minutes), estimated pace (minutes:seconds), "
-                 "fuel per lap & safety margin separated by spaces\n")
+                 "fuel per lap & extra laps separated by spaces\n")
     while not close:
         try:
             if first:
@@ -23,12 +23,12 @@ def main():
             else:
                 pace_parsed = int(pace[0]) + float(pace[1]) / 60
             consumption = float(info[2])
-            margin = int(info[3])
+            margin = float(info[3])
             laps = math.ceil(time_parsed / pace_parsed)
             laps_margin = laps + margin
             fuel_needed = math.ceil(laps_margin * consumption)
             print("Estimated laps:", laps)
-            print("Safety margin:", margin, "laps")
+            print("Extra laps:", margin, "laps")
             print("Fuel needed:", fuel_needed, "liters\n")
             info = input("Input parameters to calculate again or press Enter to close\n")
             if info == "":

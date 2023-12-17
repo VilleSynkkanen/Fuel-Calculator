@@ -21,6 +21,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="21eLr3z3ZCUsK3xXNoxoN0hsZCV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -28,11 +31,12 @@
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FuelCalculator" />
@@ -41,9 +45,10 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Programs\Python\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calculator.py" />
@@ -61,6 +66,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -73,23 +79,5 @@
       <updated>1638296801773</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1416" height="303" key="GridCell.Tab.0.bottom" timestamp="1650810969624">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state width="1416" height="303" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1650810969624" />
-    <state width="1416" height="303" key="GridCell.Tab.0.center" timestamp="1650810969624">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state width="1416" height="303" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1650810969624" />
-    <state width="1416" height="303" key="GridCell.Tab.0.left" timestamp="1650810969624">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state width="1416" height="303" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1650810969624" />
-    <state width="1416" height="303" key="GridCell.Tab.0.right" timestamp="1650810969624">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state width="1416" height="303" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1650810969624" />
   </component>
 </project>
